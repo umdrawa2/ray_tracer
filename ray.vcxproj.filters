@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8976c4ab-92bd-44da-ada6-0e5b10ccc5de}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{d2af6a80-5512-4638-863b-ee200b634490}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\fileio">
+      <UniqueIdentifier>{4d02587d-0859-4d06-bc5f-240f12fbda62}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\scene">
+      <UniqueIdentifier>{eeccdfcf-67d9-4817-a710-5b580495fe97}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SceneObjects">
+      <UniqueIdentifier>{fe5034bf-2b34-445e-8de6-dca7628c6b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\parser">
+      <UniqueIdentifier>{705a43d8-51e3-4fe8-bb63-080fc879e192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d76a5879-0997-4f70-9acc-cb9442e655d8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ui.">
+      <UniqueIdentifier>{de765b52-3017-460a-81c3-d25a6712451e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\fileio.">
+      <UniqueIdentifier>{ff72656e-6e35-48ee-91bd-5675d7d4c689}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\vecmath.">
+      <UniqueIdentifier>{6998b179-6ad4-4387-9250-e6e9fe172876}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\scene.">
+      <UniqueIdentifier>{067faea8-e108-43b9-abe7-6b4c29a30051}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SceneObjects.">
+      <UniqueIdentifier>{d72a54e3-b6ab-41ba-9798-e48ef65546d2}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\parser.">
+      <UniqueIdentifier>{bf4c1c97-7ca9-438b-bcf5-9c274e66dfc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{060b7b0e-ad05-4348-8e2c-4441c6003c52}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\getopt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RayTracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\CommandLineUI.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\debuggingView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\debuggingWindow.cxx">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\glObjects.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\GraphicalUI.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\ModelerCamera.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fileio\buffer.cpp">
+      <Filter>Source Files\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fileio\imageio.cpp">
+      <Filter>Source Files\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\camera.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\light.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\material.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\ray.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\scene.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneObjects\Box.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneObjects\Cone.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneObjects\Cylinder.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneObjects\Sphere.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneObjects\trimesh.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parser\Parser.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parser\ParserException.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parser\Token.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parser\Tokenizer.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\TraceGLWindow.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\bvh.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneObjects\Square.cpp">
+      <Filter>Source Files\SceneObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RayTracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\CommandLineUI.h">
+      <Filter>Header Files\ui.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\debuggingView.h">
+      <Filter>Header Files\ui.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\debuggingWindow.h">
+      <Filter>Header Files\ui.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\GraphicalUI.h">
+      <Filter>Header Files\ui.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\ModelerCamera.h">
+      <Filter>Header Files\ui.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\TraceGLWindow.h">
+      <Filter>Header Files\ui.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\TraceUI.h">
+      <Filter>Header Files\ui.</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files\ui.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fileio\buffer.h">
+      <Filter>Header Files\fileio.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fileio\imageio.h">
+      <Filter>Header Files\fileio.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vecmath\mat.h">
+      <Filter>Header Files\vecmath.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vecmath\vec.h">
+      <Filter>Header Files\vecmath.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\camera.h">
+      <Filter>Header Files\scene.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\light.h">
+      <Filter>Header Files\scene.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\material.h">
+      <Filter>Header Files\scene.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\ray.h">
+      <Filter>Header Files\scene.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\scene.h">
+      <Filter>Header Files\scene.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneObjects\Box.h">
+      <Filter>Header Files\SceneObjects.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneObjects\Cone.h">
+      <Filter>Header Files\SceneObjects.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneObjects\Cylinder.h">
+      <Filter>Header Files\SceneObjects.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneObjects\Sphere.h">
+      <Filter>Header Files\SceneObjects.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneObjects\Square.h">
+      <Filter>Header Files\SceneObjects.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneObjects\trimesh.h">
+      <Filter>Header Files\SceneObjects.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parser\Parser.h">
+      <Filter>Header Files\parser.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parser\ParserException.h">
+      <Filter>Header Files\parser.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parser\Token.h">
+      <Filter>Header Files\parser.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parser\Tokenizer.h">
+      <Filter>Header Files\parser.</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\bvh.h">
+      <Filter>Header Files\scene.</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+</Project>
